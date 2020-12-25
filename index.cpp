@@ -26,4 +26,8 @@ void loop() {
 
   myServo.write(angle);
   delay(15);
+//   if ( angle == 90 ) {
+//    myServo.write(0);
+//  };
+//  delay(300);
 }
